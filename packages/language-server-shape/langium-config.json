@@ -1,0 +1,12 @@
+{
+    "projectName": "Shape",
+    "languages": [{
+        "id": "shape",
+        "grammar": "src/language-server/shape.langium",
+        "fileExtensions": [".st", ".sd"],
+        "textMate": {
+            "out": "syntaxes/shape.tmLanguage.json"
+        }
+    }],
+    "out": "src/language-server/generated"
+}
