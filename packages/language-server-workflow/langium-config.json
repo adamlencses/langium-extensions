@@ -1,0 +1,12 @@
+{
+    "projectName": "Workflow",
+    "languages": [{
+        "id": "workflow",
+        "grammar": "src/language-server/workflow.langium",
+        "fileExtensions": [".wf", ".wfd"],
+        "textMate": {
+            "out": "syntaxes/workflow.tmLanguage.json"
+        }
+    }],
+    "out": "src/language-server/generated"
+}

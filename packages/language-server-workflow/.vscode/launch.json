@@ -9,7 +9,7 @@
       "name": "Run Extension",
       "type": "extensionHost",
       "request": "launch",
-      "args": ["--extensionDevelopmentPath=${workspaceFolder}/packages/language-server-workflow"]
+      "args": ["--extensionDevelopmentPath=${workspaceFolder}"]
     },
     {
       "name": "Attach to Language Server",
@@ -18,10 +18,7 @@
       "request": "attach",
       "skipFiles": ["<node_internals>/**"],
       "sourceMaps": true,
-      "outFiles": [
-        "${workspaceFolder}/packages/language-server-workflow/out/**/*.js",
-        "${workspaceFolder}/packages/language-server-workflow/node_modules/langium"
-      ]
+      "outFiles": ["${workspaceFolder}/out/**/*.js", "${workspaceFolder}/node_modules/langium"]
     }
   ]
 }
